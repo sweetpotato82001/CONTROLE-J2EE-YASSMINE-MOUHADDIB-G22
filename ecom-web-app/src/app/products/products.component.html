@@ -1,0 +1,25 @@
+<div class="container">
+  <div>
+    <button mat-button  [routerLink]="['/add-product']" class="save-button" >New Product</button>
+  </div>
+  <table class="table" *ngIf="products">
+    <thead>
+    <tr>
+      <th>ID</th> <th>Name</th> <th>Price</th> <th>Quantity</th><th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of products._embedded.products">
+      <td>{{p.id}}</td>
+      <td>{{p.name}}</td>
+      <td>{{p.price}}</td>
+      <td>{{p.quantity}}</td>
+      <td>
+        <button mat-button   (click)="deleteProduct(p.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+
+  </table>
+
+</div>

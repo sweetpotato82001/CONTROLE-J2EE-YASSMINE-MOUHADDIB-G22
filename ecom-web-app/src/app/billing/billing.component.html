@@ -1,0 +1,27 @@
+<div class="container">
+  <table class="table" *ngIf="billing">
+    <thead>
+    <tr>
+      <th>ID</th> <th>Billing Date</th> <th>Customer ID</th><th>Customer name</th> <th>Details</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let p of billing1">
+      <td>{{p.id}}</td>
+      <td>{{p.billingDate}}</td>
+      <td>{{p.customer.id}}</td>
+      <td>{{p.customer.name}}</td>
+      <td>
+      <button mat-button   [routerLink]="['/products/',p.id]" >Products</button>
+
+      </td>
+
+
+
+
+    </tr>
+    </tbody>
+
+  </table>
+
+</div>
