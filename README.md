@@ -18,3 +18,16 @@
 ## DETAILS 
 ![image](https://user-images.githubusercontent.com/82051521/208911054-d1086751-0405-4f65-8e4e-eda4dd6fc73e.png)
 
+## KEYCLOAK REALM 
+![image](https://user-images.githubusercontent.com/82051521/208912882-a0ee26cd-0395-4391-b240-9133bc6378a2.png)
+
+
+## KEYCLOAK CLIENT 
+![image](https://user-images.githubusercontent.com/82051521/208913081-20b3c272-542e-4f71-b0b8-93673c7099cf.png)
+
+## KEYCLOAK USER 
+![image](https://user-images.githubusercontent.com/82051521/208913361-01d60bfc-3836-4cb5-b373-df64ea6056a1.png)
+
+## KEYCLOAK ROLES 
+![image](https://user-images.githubusercontent.com/82051521/208913498-51e76232-92d3-4ebb-b26c-fd4ee2699594.png)
+
