@@ -1,0 +1,7 @@
+.nav:hover
+{
+  color: coral;
+}
+.nav:active{
+  color: azure;
+}

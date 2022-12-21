@@ -19,7 +19,7 @@ import {MatInputModule} from '@angular/material'
 import { FormsModule } from '@angular/forms';
 import { AddProductComponent } from './add-product/add-product.component';
 
-function initializeKeycloak(keycloak: KeycloakService){
+/*function initializeKeycloak(keycloak: KeycloakService){
   return() =>{
       keycloak.init({
         config:{
@@ -33,7 +33,7 @@ function initializeKeycloak(keycloak: KeycloakService){
       })
   }
 }
-
+*/
 
 @NgModule({
   declarations: [
@@ -59,12 +59,12 @@ function initializeKeycloak(keycloak: KeycloakService){
     FormsModule
   ],
   providers: [
-    {
+    /*{
       provide: APP_INITIALIZER,
       useFactory: initializeKeycloak,
       multi: true,
       deps : [KeycloakService],
-    },
+    },*/
   ],
   bootstrap: [AppComponent]
 })

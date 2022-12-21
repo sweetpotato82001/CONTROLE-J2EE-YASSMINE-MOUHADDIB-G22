@@ -1,4 +1,4 @@
-<form class="border border-dark" (ngSubmit)="formSubmit()">
+<form class="border border-dark formulaire" (ngSubmit)="formSubmit()">
     <div class="row">
         <div class="col text text-center p-2 mb-3 bg-light">
             <span class="fs-3">New Customer</span>
@@ -13,7 +13,7 @@
             <label for="email" class="form-label">Customer Email</label>
             <input type="email" class="form-control" name="email" [(ngModel)] = "user.email">
         </div>
-        <div class="col-6 offset-3"> 
+        <div class="col-6 offset-3">
             <div class="d-grid">
                 <button type="submit" class="btn btn-primary">Add</button>
             </div>

@@ -1,4 +1,20 @@
 form{
-    width: 500px;
-    
+  width: 500px;
+
+}
+.formulaire{
+  position: absolute;
+  top: 150px;
+  right: 600px;
+  padding: 20px;
+}
+
+.btn{
+  background-color: bisque;
+  color: black;
+  border-color: darksalmon;
+}
+.btn:hover{
+  background-color: darksalmon;
+  color: bisque;
 }
