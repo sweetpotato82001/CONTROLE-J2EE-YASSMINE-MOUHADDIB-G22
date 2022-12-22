@@ -31,3 +31,5 @@
 ## KEYCLOAK ROLES 
 ![image](https://user-images.githubusercontent.com/82051521/208913498-51e76232-92d3-4ebb-b26c-fd4ee2699594.png)
 
+##KEYCLOAK AUTHENTICATION FOR SECURING EACH MICROSERVICE
+![image](https://user-images.githubusercontent.com/82051521/209098142-837cb529-b9db-4cc2-bd72-408b2259b3e7.png)
