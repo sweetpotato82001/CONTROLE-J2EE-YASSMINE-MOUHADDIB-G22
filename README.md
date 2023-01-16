@@ -31,5 +31,13 @@
 ## KEYCLOAK ROLES 
 ![image](https://user-images.githubusercontent.com/82051521/208913498-51e76232-92d3-4ebb-b26c-fd4ee2699594.png)
 
+## KEYCLOAK AUTH TEST POSTMAN
+![1](https://user-images.githubusercontent.com/82051521/212774792-b904f10a-298f-4ec8-888d-839a085117c0.PNG)
+![2](https://user-images.githubusercontent.com/82051521/212774803-f8e62081-9a63-43bc-b150-15667a650fd8.PNG)
+
+## KEYCLOAK JWT TEST
+![3](https://user-images.githubusercontent.com/82051521/212774851-6a163ed6-c0ce-400f-b265-5e5d810323bd.PNG)
+
+
 ##KEYCLOAK AUTHENTICATION FOR SECURING EACH MICROSERVICE
 ![image](https://user-images.githubusercontent.com/82051521/209098142-837cb529-b9db-4cc2-bd72-408b2259b3e7.png)
