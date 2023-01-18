@@ -41,3 +41,9 @@
 
 ## KEYCLOAK AUTHENTICATION FOR SECURING EACH MICROSERVICE
 ![image](https://user-images.githubusercontent.com/82051521/209098142-837cb529-b9db-4cc2-bd72-408b2259b3e7.png)
+
+
+## KAFKA CONSUMER TEST
+![yassmine](https://user-images.githubusercontent.com/82051521/213111918-d72f8156-c131-4d57-a7a1-efa7e20d5a69.PNG)
+
+
