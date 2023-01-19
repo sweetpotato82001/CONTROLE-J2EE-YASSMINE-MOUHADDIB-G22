@@ -46,7 +46,7 @@
 ## KAFKA CONSUMER TEST
 ![yassmine](https://user-images.githubusercontent.com/82051521/213111918-d72f8156-c131-4d57-a7a1-efa7e20d5a69.PNG)
 
-## KAFKA STREAM
+## KAFKA STREAMS
 ![image](https://user-images.githubusercontent.com/82051521/213329112-f0985883-cbe3-4ac3-aac4-e6bab19a4e0a.png)
 
 
