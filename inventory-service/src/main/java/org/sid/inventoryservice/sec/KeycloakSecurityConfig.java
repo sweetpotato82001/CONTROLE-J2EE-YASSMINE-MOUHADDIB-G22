@@ -1,5 +1,5 @@
 package org.sid.inventoryservice.sec;
-
+/*
 import org.keycloak.adapters.springsecurity.KeycloakConfiguration;
 import org.keycloak.adapters.springsecurity.authentication.KeycloakAuthenticationProvider;
 import org.keycloak.adapters.springsecurity.config.KeycloakWebSecurityConfigurerAdapter;
@@ -25,6 +25,6 @@ public class KeycloakSecurityConfig extends KeycloakWebSecurityConfigurerAdapter
     protected void configure(HttpSecurity http) throws Exception {
         super.configure(http);
         http.cors().disable().csrf().disable();
-        http.authorizeRequests().antMatchers("/products/**","/customers/**").authenticated().anyRequest().permitAll();
+        http.authorizeRequests().antMatchers("/products/**").authenticated().anyRequest().permitAll();
     }
-}
+}*/

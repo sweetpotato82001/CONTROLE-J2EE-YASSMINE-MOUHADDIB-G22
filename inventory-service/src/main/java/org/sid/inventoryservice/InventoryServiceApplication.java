@@ -24,9 +24,9 @@ public class InventoryServiceApplication {
 							RepositoryRestConfiguration restConfiguration){
 		restConfiguration.exposeIdsFor(Product.class);
 		return  args -> {
-				productRepository.save(new Product(1L, "cocacola" , 10, 5));
-				productRepository.save(new Product(2L, "doritos" , 20, 3));
-				productRepository.save(new Product(3L, "indomie" , 5, 2));
+				productRepository.save(new Product(1L, "product1" , 10, 5));
+				productRepository.save(new Product(2L, "product2" , 20, 3));
+				productRepository.save(new Product(3L, "product3" , 5, 2));
 				productRepository.findAll().forEach(p->{
 					System.out.println(p.getName());
 				});
